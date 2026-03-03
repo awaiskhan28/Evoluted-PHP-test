@@ -65,7 +65,6 @@ class CardTest extends TestCase
         }
     }
 
-    /** @test */
     public function test_calculate_points_with_single_card()
     {
         $service = new CardService();
@@ -82,7 +81,6 @@ class CardTest extends TestCase
         $this->assertEquals(8, $points);
     }
 
-    /** @test */
     public function test_calculate_points_with_multiple_cards()
     {
         $service = new CardService();
@@ -104,7 +102,6 @@ class CardTest extends TestCase
         $this->assertEquals(5, $points);
     }
 
-    /** @test */
     public function test_calculate_points_returns_zero_if_no_matches()
     {
         $service = new CardService();
