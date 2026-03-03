@@ -26,4 +26,4 @@ php artisan cards:points
 
 ## Running Tests
 
-php vendor\phpunit\phpunit\phpunit
+php artisan test
